@@ -1,0 +1,154 @@
+{
+  "v": 1,
+  "source": {
+    "repo": "https://github.com/finos-labs/dtcch-2025-OpenAML",
+    "commit": "07b2c3e9ca9849eb29ab2ee2c679c3bc4945cc35",
+    "license": "Apache-2.0",
+    "files": [
+      {
+        "file": "Data/address_sanctioned.csv.gz",
+        "sha256": "de596bc4287d9f09365d20df4c4a73bfcc78526ff3675e68fe25090a02240968"
+      },
+      {
+        "file": "Data/address_fraud.csv.gz",
+        "sha256": "66f580c2f2d820ee246217e921f85ad0a82a06ef2ca93a670f5ac7113ef2614b"
+      },
+      {
+        "file": "Data/address_flagged.csv.gz",
+        "sha256": "ac4003b0502c9fb0e399c06c5f959820112950ca331239ef31e4695471d0a91e"
+      }
+    ]
+  },
+  "shard": {
+    "prefix_length": 3,
+    "count": 4096,
+    "path": "index/shards/<prefix>.json",
+    "largest_bytes": 121873
+  },
+  "addresses": 364486,
+  "excluded": {
+    "rule": "first 16 hex characters of the address are zero (no one can hold its key)",
+    "rows": [
+      {
+        "file": "Data/address_sanctioned.csv.gz",
+        "chain": "Ethereum",
+        "address": "0x0000000000000000000000000000000000000000",
+        "label": "Blocked"
+      },
+      {
+        "file": "Data/address_sanctioned.csv.gz",
+        "chain": "Ethereum",
+        "address": "0x0000000000000000000000000000000000000001",
+        "label": "Blocked"
+      },
+      {
+        "file": "Data/address_sanctioned.csv.gz",
+        "chain": "Ethereum",
+        "address": "0x0000000000000000000000000000000000000018",
+        "label": "Blocked"
+      },
+      {
+        "file": "Data/address_sanctioned.csv.gz",
+        "chain": "Ethereum",
+        "address": "0x0000000000000000000000000000000000000019",
+        "label": "Blocked"
+      },
+      {
+        "file": "Data/address_sanctioned.csv.gz",
+        "chain": "Ethereum",
+        "address": "0x000000000000000000000000000000000000001a",
+        "label": "Blocked"
+      },
+      {
+        "file": "Data/address_sanctioned.csv.gz",
+        "chain": "Ethereum",
+        "address": "0x000000000000000000000000000000000000001e",
+        "label": "Blocked"
+      },
+      {
+        "file": "Data/address_sanctioned.csv.gz",
+        "chain": "Ethereum",
+        "address": "0x000000000000000000000000000000000000015d",
+        "label": "Blocked"
+      },
+      {
+        "file": "Data/address_sanctioned.csv.gz",
+        "chain": "Ethereum",
+        "address": "0x00000000000000000000000000000000000001f2",
+        "label": "Blocked"
+      },
+      {
+        "file": "Data/address_sanctioned.csv.gz",
+        "chain": "Ethereum",
+        "address": "0x0000000000000000000000000000000000000aa3",
+        "label": "Blocked"
+      },
+      {
+        "file": "Data/address_sanctioned.csv.gz",
+        "chain": "Ethereum",
+        "address": "0x0000000000000000000000000000000000000e33",
+        "label": "Blocked"
+      },
+      {
+        "file": "Data/address_sanctioned.csv.gz",
+        "chain": "Ethereum",
+        "address": "0x0000000000000000000000000000000000000fdc",
+        "label": "Blocked"
+      },
+      {
+        "file": "Data/address_sanctioned.csv.gz",
+        "chain": "Ethereum",
+        "address": "0x000000000000000000000000000000000000129f",
+        "label": "Blocked"
+      },
+      {
+        "file": "Data/address_sanctioned.csv.gz",
+        "chain": "Ethereum",
+        "address": "0x00000000000000000000000000000000000012e5",
+        "label": "Blocked"
+      },
+      {
+        "file": "Data/address_sanctioned.csv.gz",
+        "chain": "Ethereum",
+        "address": "0x00000000000000000000000000000000000018fe",
+        "label": "Blocked"
+      },
+      {
+        "file": "Data/address_sanctioned.csv.gz",
+        "chain": "Ethereum",
+        "address": "0x0000000000000000000000000000018148086009",
+        "label": "Blocked"
+      },
+      {
+        "file": "Data/address_sanctioned.csv.gz",
+        "chain": "Ethereum",
+        "address": "0x0000000000000000000000000001fc24fe892306",
+        "label": "Blocked"
+      },
+      {
+        "file": "Data/address_sanctioned.csv.gz",
+        "chain": "Ethereum",
+        "address": "0x0000000000000000880620000000203571704007",
+        "label": "Blocked"
+      }
+    ]
+  },
+  "addresses_per_tier": {
+    "sanctioned": 182,
+    "blocked": 564,
+    "fraud": 576,
+    "flagged": 363271
+  },
+  "rows_per_tier": {
+    "sanctioned": 226,
+    "blocked": 564,
+    "fraud": 1407,
+    "flagged": 490375
+  },
+  "tiers": {
+    "sanctioned": "OpenAML Sanctioned: OFAC and SEC listed",
+    "blocked": "OpenAML Blocked: frozen by Tether or Circle",
+    "fraud": "OpenAML Fraud: linked to exploits and hacks",
+    "flagged": "OpenAML Flagged: reported scams and phishing"
+  }
+}
