@@ -1,6 +1,6 @@
 {
   "sanctioned+blocked+fraud": {
-    "address": "0x33494B509f7D29dC7D35D774DCae8F01B527266d",
+    "address": "0xd996EAB26B3A90b3de7F4BbE47549FCB84ff8D6c",
     "params": {
       "deny_tiers": [
         "sanctioned",
@@ -8,136 +8,136 @@
         "fraud"
       ]
     },
-    "policy": "0x395A67b71db090f1F36b93F2df00Da3c0F9e5995",
+    "policy": "0xccd166cf696BfF18ed095231A62B4DA5FD173FDE",
     "expireAfter": 300,
-    "policyId": "0xb9e91d47a5b6ef29ee25a917c03e45862d6bb4555952c19b48b1c76a32ac6bb4",
+    "policyId": "0x0d23984b66bf6b1205a981ce64d52ca1fca3260b422163132d6139a0c4af2226",
     "owner": "0x8b4bA8708239757e84aD26a503500Bc5fC1c1a48",
-    "deployedAt": "2026-11-13T12:04:14.299Z"
+    "deployedAt": "2026-11-16T16:00:54.560Z"
   },
   "flagged": {
-    "address": "0x445271510cfcf46e7F543B12024Ca65879fA8C0a",
+    "address": "0x2F6D437077D500C6900DedB583a20b56f73ce20A",
     "params": {
       "deny_tiers": [
         "flagged"
       ]
     },
-    "policy": "0x395A67b71db090f1F36b93F2df00Da3c0F9e5995",
+    "policy": "0xccd166cf696BfF18ed095231A62B4DA5FD173FDE",
     "expireAfter": 300,
-    "policyId": "0x33dfd7d3cef18d5c63564dab11cf9e598f7005809966ae14a141fc2882f05403",
+    "policyId": "0xd55ecfa504c1b3e4bbfe3f1ecff25da63a5a507b0a0dee9251fe8d59d3ea0a2b",
     "owner": "0x8b4bA8708239757e84aD26a503500Bc5fC1c1a48",
-    "deployedAt": "2026-11-13T12:04:38.958Z"
+    "deployedAt": "2026-11-16T16:03:40.795Z"
   },
   "sanctioned": {
-    "address": "0xce542d7C2A3e88A0C888bc395f9d08c393bfA3FC",
+    "address": "0xb16259dC662f6C851E47a38285464B9483E6228c",
     "params": {
       "deny_tiers": [
         "sanctioned"
       ]
     },
-    "policy": "0x395A67b71db090f1F36b93F2df00Da3c0F9e5995",
+    "policy": "0xccd166cf696BfF18ed095231A62B4DA5FD173FDE",
     "expireAfter": 300,
-    "policyId": "0xa9597b4d8c2511e5415ed514b4376666f410b40b94cb46402fe6f474565492b9",
+    "policyId": "0x78665896ea46c346495f1b50025640d36e4d27ee3fafb42be9e136dbd1b199f2",
     "owner": "0x8b4bA8708239757e84aD26a503500Bc5fC1c1a48",
-    "deployedAt": "2026-11-13T12:43:16.086Z"
+    "deployedAt": "2026-11-16T16:01:15.369Z"
   },
   "blocked": {
-    "address": "0x8Fbf2D2697809D197852A38222cF4E706E31C30E",
+    "address": "0x2108e3B2359Dd8c4a3993c20D73d4b1490e587a7",
     "params": {
       "deny_tiers": [
         "blocked"
       ]
     },
-    "policy": "0x395A67b71db090f1F36b93F2df00Da3c0F9e5995",
+    "policy": "0xccd166cf696BfF18ed095231A62B4DA5FD173FDE",
     "expireAfter": 300,
-    "policyId": "0x095e3a1621f5cd8c8f457013c82a6121c04b4a63bc9c5ba43756f8a9c6aeb847",
+    "policyId": "0xb054325f328303787413ddbd5901c098e83ee9f2d62770556f7079a0fb2c6ebf",
     "owner": "0x8b4bA8708239757e84aD26a503500Bc5fC1c1a48",
-    "deployedAt": "2026-11-13T12:43:40.774Z"
+    "deployedAt": "2026-11-16T16:01:40.334Z"
   },
   "sanctioned+blocked": {
-    "address": "0xD05821c63061163881cdD181bf06d736F84877aB",
+    "address": "0xb8609f0aB40415f1eAf8C2C21e4961803ffC89Ec",
     "params": {
       "deny_tiers": [
         "sanctioned",
         "blocked"
       ]
     },
-    "policy": "0x395A67b71db090f1F36b93F2df00Da3c0F9e5995",
+    "policy": "0xccd166cf696BfF18ed095231A62B4DA5FD173FDE",
     "expireAfter": 300,
-    "policyId": "0x3a87a76cd927a9451d3572571d8d3132d18570ce0be41672f9f8d2b014a95ae1",
+    "policyId": "0x09b385c16e458cb1a3e2d2019bf3d4804f7d837ca7decbe101674ee9b1e02d76",
     "owner": "0x8b4bA8708239757e84aD26a503500Bc5fC1c1a48",
-    "deployedAt": "2026-11-13T12:44:01.408Z"
+    "deployedAt": "2026-11-16T16:02:01.152Z"
   },
   "fraud": {
-    "address": "0x3942D0B6dE3438Ce75Ad1991498B090626086FA0",
+    "address": "0x2C4dB5d30594Ae63Ac5Ee67984bA991386556e1c",
     "params": {
       "deny_tiers": [
         "fraud"
       ]
     },
-    "policy": "0x395A67b71db090f1F36b93F2df00Da3c0F9e5995",
+    "policy": "0xccd166cf696BfF18ed095231A62B4DA5FD173FDE",
     "expireAfter": 300,
-    "policyId": "0x2ffafbe9937d0b2595f14ab4223e2688cbc9a23972cff0c12e64ae8aba4fb21f",
+    "policyId": "0xe2033c7fff054cfdbbd4408d88e11865092458757640ff7c6f5fa0080002b85e",
     "owner": "0x8b4bA8708239757e84aD26a503500Bc5fC1c1a48",
-    "deployedAt": "2026-11-13T12:44:26.295Z"
+    "deployedAt": "2026-11-16T16:02:30.244Z"
   },
   "sanctioned+fraud": {
-    "address": "0xc5478512c3d89f21175EBB8421684FAe3Bd3D815",
+    "address": "0x0A431D9347B2CF13105882E750fCB9cdEc7cCb6C",
     "params": {
       "deny_tiers": [
         "sanctioned",
         "fraud"
       ]
     },
-    "policy": "0x395A67b71db090f1F36b93F2df00Da3c0F9e5995",
+    "policy": "0xccd166cf696BfF18ed095231A62B4DA5FD173FDE",
     "expireAfter": 300,
-    "policyId": "0x97f95385ced927ea7e0dbf37ab06ed09b0740fb13cd2d20239486f161922a68c",
+    "policyId": "0x4eba920bd9cae6cd2c229b326e116cb097ea0637661ec69282a0409a4517676f",
     "owner": "0x8b4bA8708239757e84aD26a503500Bc5fC1c1a48",
-    "deployedAt": "2026-11-13T12:44:50.955Z"
+    "deployedAt": "2026-11-16T16:02:51.031Z"
   },
   "blocked+fraud": {
-    "address": "0x93E98F254A8d1dD2137BA41C27ee8c15f0DaA291",
+    "address": "0x3F19CAFb487C8e861189302F3E513e6e15b3ED48",
     "params": {
       "deny_tiers": [
         "blocked",
         "fraud"
       ]
     },
-    "policy": "0x395A67b71db090f1F36b93F2df00Da3c0F9e5995",
+    "policy": "0xccd166cf696BfF18ed095231A62B4DA5FD173FDE",
     "expireAfter": 300,
-    "policyId": "0x674c0f146544fee63988390e822a1e2c7ef84e9494c878426ff2c8f1d61cac18",
+    "policyId": "0x2267ced3248d3a382ec50e943cd803a518e8f3e1ba382e722b7ad3fd927f6cae",
     "owner": "0x8b4bA8708239757e84aD26a503500Bc5fC1c1a48",
-    "deployedAt": "2026-11-13T12:45:27.854Z"
+    "deployedAt": "2026-11-16T16:03:19.986Z"
   },
   "sanctioned+flagged": {
-    "address": "0x2BCF91a240c3fa9A7D79715192229b98d6790CD2",
+    "address": "0x072eF055b45E3E937bD864EcA471e90f5574D55B",
     "params": {
       "deny_tiers": [
         "sanctioned",
         "flagged"
       ]
     },
-    "policy": "0x395A67b71db090f1F36b93F2df00Da3c0F9e5995",
+    "policy": "0xccd166cf696BfF18ed095231A62B4DA5FD173FDE",
     "expireAfter": 300,
-    "policyId": "0xcc9808ed88e3fae2d1a0b9f8077ffd736b225b24db264f52113e22424896b0c1",
+    "policyId": "0xb746e0b39ec61f1682bb0941a3ef7f63c948774f057adb878f541c645d8fe327",
     "owner": "0x8b4bA8708239757e84aD26a503500Bc5fC1c1a48",
-    "deployedAt": "2026-11-13T12:45:52.544Z"
+    "deployedAt": "2026-11-16T16:04:13.709Z"
   },
   "blocked+flagged": {
-    "address": "0xDFdF23F72EE06D9F9d9e543208Ad42CBCD03540C",
+    "address": "0x92251761bC6c2430f29A184ceAe75Bd8800882BC",
     "params": {
       "deny_tiers": [
         "blocked",
         "flagged"
       ]
     },
-    "policy": "0x395A67b71db090f1F36b93F2df00Da3c0F9e5995",
+    "policy": "0xccd166cf696BfF18ed095231A62B4DA5FD173FDE",
     "expireAfter": 300,
-    "policyId": "0xe0dec0e2d6c8ce00fb4d718205660162623e0283dd9e0760af607fd49d4e652d",
+    "policyId": "0x156146be587d21a7b5fb392fa590714ce7da79342f0f5d95e02ecd640adec64d",
     "owner": "0x8b4bA8708239757e84aD26a503500Bc5fC1c1a48",
-    "deployedAt": "2026-11-13T12:46:29.475Z"
+    "deployedAt": "2026-11-16T16:04:50.735Z"
   },
   "sanctioned+blocked+flagged": {
-    "address": "0x32E32e8bEc04b4cEe2cc767FEA6393B606A89Aab",
+    "address": "0xec1B8AFB24c0507d086D1BC5B88DdbaaABA8A4Be",
     "params": {
       "deny_tiers": [
         "sanctioned",
@@ -145,28 +145,28 @@
         "flagged"
       ]
     },
-    "policy": "0x395A67b71db090f1F36b93F2df00Da3c0F9e5995",
+    "policy": "0xccd166cf696BfF18ed095231A62B4DA5FD173FDE",
     "expireAfter": 300,
-    "policyId": "0xd5c57c972594756eb6e61d2ed2d6a1baf9fd9e75c4b1ed16507a5f1d9cde9843",
+    "policyId": "0x073135adce34550bb1e30dcc9921d7c5ccfdf0bb79a23381a4b59ffc57177b26",
     "owner": "0x8b4bA8708239757e84aD26a503500Bc5fC1c1a48",
-    "deployedAt": "2026-11-13T12:46:50.216Z"
+    "deployedAt": "2026-11-16T16:05:28.259Z"
   },
   "fraud+flagged": {
-    "address": "0xE90F3c7534C0a94B59b29E98E18503Ad84E98eed",
+    "address": "0x1Cf1a698cb75AC765bDf647c890CC5B7cA5A5B19",
     "params": {
       "deny_tiers": [
         "fraud",
         "flagged"
       ]
     },
-    "policy": "0x395A67b71db090f1F36b93F2df00Da3c0F9e5995",
+    "policy": "0xccd166cf696BfF18ed095231A62B4DA5FD173FDE",
     "expireAfter": 300,
-    "policyId": "0x029a0e13b8310e57ecef9de72537f942c11bfe1350e530a2f4c9c1dfb0b7e332",
+    "policyId": "0x2f73ed316696000fbbe8d6e07271afa87b7086f29328a6db32a32a921987a0d2",
     "owner": "0x8b4bA8708239757e84aD26a503500Bc5fC1c1a48",
-    "deployedAt": "2026-11-13T12:47:14.863Z"
+    "deployedAt": "2026-11-16T16:05:53.298Z"
   },
   "sanctioned+fraud+flagged": {
-    "address": "0x11310ab0a8E403a53341A29FcF517d07e0BA8523",
+    "address": "0x9595198B6c223f8d6E85b6b616ab566fe518eC43",
     "params": {
       "deny_tiers": [
         "sanctioned",
@@ -174,14 +174,14 @@
         "flagged"
       ]
     },
-    "policy": "0x395A67b71db090f1F36b93F2df00Da3c0F9e5995",
+    "policy": "0xccd166cf696BfF18ed095231A62B4DA5FD173FDE",
     "expireAfter": 300,
-    "policyId": "0x7c791bb025696cb82da18b242d67f2e26ef98c1e0ec2702384526bd901745b5f",
+    "policyId": "0x276ad91b1213d0e54712f24550be928c4f81fae3e21cc49bb0fe15ed14ac7032",
     "owner": "0x8b4bA8708239757e84aD26a503500Bc5fC1c1a48",
-    "deployedAt": "2026-11-13T12:47:39.536Z"
+    "deployedAt": "2026-11-16T16:06:14.081Z"
   },
   "blocked+fraud+flagged": {
-    "address": "0xDE23D0e12e86556fd827879B19D360d197B89AE7",
+    "address": "0x001BF430644A2c965651F67B331330a895d8d5BB",
     "params": {
       "deny_tiers": [
         "blocked",
@@ -189,14 +189,14 @@
         "flagged"
       ]
     },
-    "policy": "0x395A67b71db090f1F36b93F2df00Da3c0F9e5995",
+    "policy": "0xccd166cf696BfF18ed095231A62B4DA5FD173FDE",
     "expireAfter": 300,
-    "policyId": "0x3dc2885edc593728832aa97119eeb456c9efbf0b740d13b9b65ee76e8643cbf7",
+    "policyId": "0xe919442f877e69b0a954e34c1f3990bd56a3347583867bda35dd0c618a4b4a9b",
     "owner": "0x8b4bA8708239757e84aD26a503500Bc5fC1c1a48",
-    "deployedAt": "2026-11-13T12:48:04.187Z"
+    "deployedAt": "2026-11-16T16:06:38.875Z"
   },
   "sanctioned+blocked+fraud+flagged": {
-    "address": "0x1fe173D2DC06a575d0765114E84e4B5B0a30Bb8B",
+    "address": "0x6E26263c3E17D1229219cF11e180c2E60932781A",
     "params": {
       "deny_tiers": [
         "sanctioned",
@@ -205,10 +205,10 @@
         "flagged"
       ]
     },
-    "policy": "0x395A67b71db090f1F36b93F2df00Da3c0F9e5995",
+    "policy": "0xccd166cf696BfF18ed095231A62B4DA5FD173FDE",
     "expireAfter": 300,
-    "policyId": "0xb5eb1763ac687f4ab1b20640f05e0c7781d6fbded1accd8a1cee7e87f03785a9",
+    "policyId": "0x699cd9b3814364ca93929d0ca45f70873fd46686f2a16f7444d1db6fe5fdc319",
     "owner": "0x8b4bA8708239757e84aD26a503500Bc5fC1c1a48",
-    "deployedAt": "2026-11-13T12:48:40.965Z"
+    "deployedAt": "2026-11-16T16:07:15.960Z"
   }
 }
